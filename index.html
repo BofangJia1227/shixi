@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- 页面标题 -->
-  <title>SHIXI's Homepage</title>
+  <title>SWU-Automation-internship</title>
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
   <!-- Google 字体 -->
@@ -30,47 +30,51 @@
       <div class="columns">
         <div class="column is-2">
           <div class="sticky" style="position: sticky; top: 0;">
-            <!-- 个人信息 -->
-            <figure class="image is-150x150">
-              <img class="is-rounded" src="images/1.png">
-            </figure>
-            <div style="margin-bottom: 10px;">   </div>
+            <div style="margin-bottom: 60px;">   </div>
             <div>   </div>
 
-            <div class="content">
-              <br>
-              <h3>贾博方</h3>
-              <h3>李帅</h3>
-              <h3>殷祥恺</h3>
-              <h3>许皓然</h3>
-              </br>
-                <h6>西南大学自动化一班</br>
-                  </br>
-                  第十五组</h6>
-            </div>
+            
             
             <!-- 侧边栏的快速链接 -->
             <div id="sidebar" class="menu sticky is-hidden-mobile">
               <p class="menu-label"><b>快速链接</b></p>
               <ul class="menu-list">
-                <li><a href="#project">项目</a></li>
-                <li><a href="#debug">调试</a></li>
-                <li><a href="#reply">答辩</a></li>
+                <li><a href="#点亮LED灯">点亮LED灯</a></li>
+                <li><a href="#LED流水灯">LED流水灯</a></li>
+                <li><a href="#流水灯波形仿真">流水灯波形仿真</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="content">
-            <!-- 页面内容 -->
-            <div style="text-align:right; width: 100%;">
-              <picture class="image">
-                <img alt="" src="images/2.png" style="display:inline-block;">
-              </picture>
-            </div>
+            <div class="header" id="top" style="margin-top: 10px;">
+              <center>
+                  <h1>
+                      <img src="C:\Users\admin\Desktop\shixi\images\1.png" alt="icon" style="width: 40px; height: 40px; vertical-align: ; border-radius: 50%; margin-right: 10px;">
+                      <span style="font-weight: bolder; font-size: 50px;">西南大学自动化第十五组FPGA实习记录</span>
+                  </h1>
+              </center>
+              <div style="margin-bottom: 10px;">   </div>
+              <table class="authors" style="width: 100%;">
+                  <tbody>
+                      <tr>
+                          <td style="text-align: center;">
+                              <h3>
+                                  <span class="author-block" style="font-weight: bolder; font-size: 25px;"><a>贾博方</a><sup></sup></span>&nbsp;
+                                  <span class="author-block" style="font-weight: bolder; font-size: 25px;"><a>李帅</a><sup></sup></span>&nbsp;
+                                  <span class="author-block" style="font-weight: bolder; font-size: 25px;"><a>殷祥恺</a><sup></sup></span>&nbsp;
+                                  <span class="author-block" style="font-weight: bolder; font-size: 25px;"><a>许皓然</a><sup></sup></span>&nbsp;
+                              </h3>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+          </div>
             <!-- 项目 -->
-            <h3 id="project">项目</h3>
-            
+            <h3>项目</h3>
+            <h3 id="点亮LED灯"></h3>
 
             <article class="columns">
               <div class="column is-3">
@@ -88,7 +92,8 @@
                 </div>
               </div>
             </article>
-
+            
+            <h3 id="LED流水灯"></h3>
             <article class="columns">
               <div class="column is-3">
                 <picture class="image">
@@ -106,13 +111,25 @@
               </div>
             </article>
 
+            
+            <h3 id="流水灯波形仿真"></h3>
+            <article class="columns">
+              <div class="column is-3">
+                <picture class="image">
+                  <img src="images/5.png">
+                </picture>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <i><b>[3/26]流水灯波形仿真 </b></i><br>
+                    使用modelsim进行波形仿真<br>
+                    <a href="images/点亮LED灯.pdf" target="_blank">[<u>code</u>]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
 
-            <!-- 调试 -->
-            <h3 id="debug">调试</h3>
-            
-           
-            
-            <h3 id="reply">答辩</h3>
 
             
           </div>
