@@ -42,6 +42,8 @@
                 <li><a href="#流水灯波形仿真">流水灯波形仿真</a></li>
                 <li><a href="#状态机实现流水灯">状态机实现流水灯</a></li>
                 <li><a href="#按键消抖">按键消抖</a></li>
+                <li><a href="#数码管静态显示">数码管静态显示</a></li>
+                <li><a href="#数码管动态显示">数码管动态显示</a></li>
               </ul>
             </div>
           </div>
@@ -167,6 +169,46 @@
                 </div>
               </div>
             </article>
+
+
+            <h3 id="数码管静态显示"></h3>
+            <article class="columns">
+              <div class="column is-3">
+                <picture class="image">
+                  <img src="images/8.gif">
+                </picture>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <i><b>[3/27]数码管静态显示 </b></i><br>
+                    Cyclone IV开发板中的数码管是共阳极，所以数码管中需要给低电平，对应的led段才会亮。在静态显示中，只考虑段选信号。在不同的时刻，各个位选信号保持不变，并根据真值表，选择要显示的数字或者字母。<br>
+                    <a href="images/点亮LED灯.pdf" target="_blank">[<u>code</u>]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+
+            <h3 id="数码管动态显示"></h3>
+            <article class="columns">
+              <div class="column is-3">
+                <picture class="image">
+                  <img src="images/6.gif">
+                </picture>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <i><b>[3/27]数码管动态显示 </b></i><br>
+                    Cyclone IV开发板中的数码管是共阳极，所以数码管中需要给低电平，对应的led段才会亮。在动态显示中，需要将位选信号考虑进来。在不同的时刻，各个位的位选信号随时改变，并根据真值表，选择显示不同的数字或者字母。<br>
+                    <a href="images/点亮LED灯.pdf" target="_blank">[<u>code</u>]</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+
             
             
           </div>
